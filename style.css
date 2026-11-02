@@ -1,0 +1,100 @@
+/* Body */
+body {
+    background-color: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Class Selector */
+.container {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+
+/* ID Selector */
+#collegeName {
+    color: navy;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Element Selector */
+.h1 {
+    color: navy;
+    text-align: center;
+}
+
+.h2 {
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px;
+    border: 2px solid navy;
+}
+
+p {
+    text-align: center;
+    color: rgb(163, 34, 34);
+}
+
+label {
+    display: block;
+    color: navy;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* Attribute Selector */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #f5f9ff;
+}
+
+textarea {
+    height: 100px;
+}
+
+/* Submit Button */
+button {
+    background-color: navy;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Reset Button */
+.reset {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: dodgerblue;
+}
+
+/* Input Focus */
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid dodgerblue;
+    outline: none;
+}
